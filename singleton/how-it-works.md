@@ -69,3 +69,9 @@ it's still the same logger!
 
 - Use the Singleton pattern when a class in your program should have just a single instance available to all clients; for example, a single database object shared by different parts of the program.
 - Use the Singleton pattern when you need stricter control over global variables.
+
+# Cons:
+
+- Can introduce issues with testing, as it can be difficult to mock the Singleton instance.
+- Can lead to a global state, making the system more difficult to understand and maintain.
+- May require additional effort to ensure thread safety in multi-threaded applications.
