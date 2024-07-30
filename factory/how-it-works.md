@@ -90,3 +90,9 @@ Preparing Pepperoni Pizza...
 - Use the Factory Pattern when you don't know beforehand the exact types and dependencies of the objects your code should work with.
 - Use the Factory Pattern when you want to provide users of your library or framework with a way to extend its internal components
 - Use the Factory Pattern when you want to save system resources by reusing existing objects instead of rebuilding them each time. 
+
+# Cons
+
+- Adds additional layers of abstraction, making the system more complex.
+- The indirection can make it harder to trace the actual instantiation of objects, complicating debugging.
+- As new product types are added, the factory may need to be updated, potentially violating the Open/Closed Principle.
