@@ -58,7 +58,7 @@ public class Singleton {
 }
 ```
 
-*Output: *
+**Output: **
 
 ```
 Log: Starting the application...
