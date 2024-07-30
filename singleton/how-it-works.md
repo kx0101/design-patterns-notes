@@ -74,4 +74,4 @@ it's still the same logger!
 
 - Can introduce issues with testing, as it can be difficult to mock the Singleton instance.
 - Can lead to a global state, making the system more difficult to understand and maintain.
-- May require additional effort to ensure thread safety in multi-threaded applications.
+- May require additional effort to ensure thread safety in multi-threaded applications. 
