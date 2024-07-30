@@ -192,4 +192,4 @@ Workstation PC: Computer [CPU=High-performance Workstation CPU, GPU=Professional
 
 - Use the Builder pattern to get rid of a "telescoping constructor" (A constructor with ten optional parameters)
 - Use the Builder pattern when you want your code to be able to create different representations of some product (for example, gaming and workstation computers)
-- Use the Builder pattern to construct Composite trees or other complex objects
+- Use the Builder pattern to construct Composite trees or other complex objects 
