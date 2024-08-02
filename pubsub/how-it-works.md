@@ -5,7 +5,7 @@ Observer is a behavioral design pattern that lets you define a subscription mech
 # Components:
 
 ## 1. Subject
-Maintains a list of observers and provides methods to attach, detach, and notify observers.
+The Subject component is the central point of management for observers interested in its state changes. It maintains a collection of observers and offers methods to register (attach) or remove (detach) them. When the Subject's state changes, it notifies all registered observers via the notifyObservers method, making sure that all dependent objects stay updated.
 
 ```java
 interface Stock {
@@ -18,7 +18,7 @@ interface Stock {
 ```
 
 ## 2. Observer
-An interface or abstract class for objects that should be notified of changes in the subject.
+The Observer is an interface or abstract class that defines a method, in this case `update`, which is called by the Subject when there is a change in its state. This interface ensures that all concrete observers implement a consistent method for receiving updates, allowing them to react appropriately when the Subject changes.
 
 ```java
 interface Investor {
@@ -27,7 +27,7 @@ interface Investor {
 ```
 
 ## 3. Concrete Subject
-Implements the Subject interface and contains the actual business logic. It stores the state of interest and notifies observers when there is a change.
+The Concrete Subject implements the Subject interface and holds the actual data or business logic that is related to the observers. It stores the relevant state (e.g., stock price) and, when this state changes, calls notifyObservers to update all registered observers. This class encapsulates the core functionalities and data basically.
 
 ```java
 class StockMarket implements Stock {
@@ -66,7 +66,7 @@ class StockMarket implements Stock {
 ```
 
 ## 4. Concrete Observer
-Implements the Observer interface to keep its state consistent with the subject's state.
+Concrete Observers implement the Observer interface and define the update method to handle changes in the subject's state. They maintain a reference to the Subject and update their own state or trigger other behaviors in response to changes.
 
 ```java
 class IndividualInvestor implements Investor {
