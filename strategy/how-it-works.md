@@ -4,7 +4,7 @@ Strategy is a behavioral pattern that lets you define a family of algorithms, pu
 
 # Structure
 
-![structure](/strategy.png)
+![structure](/strategy/strategy.png)
 
 # Components:
 
