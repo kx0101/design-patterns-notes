@@ -2,6 +2,10 @@
 
 Factory Method is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to change the type of objects that will be created.
 
+# Structure
+
+![structure](/factory/factory.png)
+
 # Components:
 
 ## 1. Product

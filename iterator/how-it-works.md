@@ -2,6 +2,10 @@
 
 Iterator is a behavioral design pattern that lets you traverse element of a collection without exposing its underlying representation (list, stack, tree etc)
 
+# Structure
+
+![structure](/iterator/iterator.png)
+
 # Components:
 
 ## 1. Iterator

@@ -1,6 +1,10 @@
 # Intent
 Singleton is a creational design pattern taht lets you ensure that a class has only one instance, while providing a global access point to this instance.
 
+# Structure
+
+![structure](/singleton/singleton.png)
+
 # Components:
 
 ## 1. Static Variable
