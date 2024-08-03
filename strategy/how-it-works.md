@@ -2,6 +2,10 @@
 
 Strategy is a behavioral pattern that lets you define a family of algorithms, put each of them into a separate class, and make their objects interchangable.
 
+# Structure
+
+![structure](/structure.png)
+
 # Components:
 
 ## 1. Context
