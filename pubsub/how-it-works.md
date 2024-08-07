@@ -139,7 +139,7 @@ Investment Company Kappa notified. Stock: Google is now 1000.0
 - Use the Observer pattern when some objects in your app must observe others, but only for a limited time or in specific cases.
 
 
-# Consistent
+# Cons
 
 - The Observer Pattern does not guarantee the order in which observers are notified. If the order of updates is important, additional mechanisms need to be implemented to ensure a specific sequence.
 - Because observers react to changes in the subject's state, it can be challenging to trace the cause and effect during debugging, especially if there are many observers and complex interactions.
